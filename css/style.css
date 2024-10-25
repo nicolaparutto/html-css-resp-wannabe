@@ -137,5 +137,7 @@ img {
     .row{
       display: block;  
     }
-    
+    .col{
+        display: block;
+    }
 }
