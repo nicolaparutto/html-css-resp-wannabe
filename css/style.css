@@ -129,15 +129,21 @@ img {
  ************************************************/
 @media screen and (max-width: 768px) {
     .container{
-        width: 750px;
+        max-width: 768px;
     }
 }
 
 @media screen and (max-width: 480px) {
+    .container{
+        max-width: 480px;
+    }
     .row{
       display: block;  
     }
-    .col{
+    .lessons .col, .steps .col, .why-us .col{
         width: 100%;
+    }
+    .card{
+        margin: 50px 0;
     }
 }
